@@ -1,52 +1,37 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ page import="java.net.*" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>LandmarkTechnologies- Home Page</title>
-<link href="images/mylandmarklogo.png" rel="icon">
+<title>Solavise Technologies Institute- Home Page</title>
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to Landmark Technologies, USA Office.</h1>
-<h1 align="center">We are developing and supporting quality Software Solutions and serving over 5 billion users.
-	We also offer Training for DevOps with Linux and Cloud Engineers for best performance.</h1>
-<hr>
-<br>
-	<h1><h3> Server Side IP Address </h3><br>
-
-<% 
-String ip = "";
-InetAddress inetAddress = InetAddress.getLocalHost();
-ip = inetAddress.getHostAddress();
-out.println("Server Host Name :: "+inetAddress.getHostName()); 
-%>
-<br>
-<%out.println("Server IP Address :: "+ip);%>
-		
+<h1 align="center">Welcome to Solavise Technologies Institute.</h1>
+<h1 align="center">Solavise Technologies Institute is developing and supporting quality Software Solutions to millions of clients globally.
+	           We are raising billionaires IT professionals accross the nations of the World.
+	Solavise Technologies Institute offers Training for AWS Cloud, DevOps with Linux, Kubernetes and Data Science & Machine Learning, equipping IT Engineers for best performance.
+        Solavise Technologies Institute, the Pride of Africa.
+	We just started a new batch August 2024.
+        Our next batch will will start on October 2024.
+        Please invite all your contacts and friends for this life changing course.
 </h1>
-	
-<hr>
 <div style="text-align: center;">
-	<span>
-		<img src="images/mylandmarklogo.png" alt="" width="150">
-	</span>
 	<span style="font-weight: bold;">
-                Landmark Technology, 
-		Toronto, Ontario, Canada
-		+1 437 215 2483,
-		mylandmarktech@gmail.com
+                Solavise Technologies Institute LLC, 
+		Solavise Technologies Institute, LLC
+        5680 King Centre Dr., Suite 600
+        Alexandria, VA 22315
+        Office (703) 647 3886 Mobile: (443) 622 9330 Fax: (703) 738 7814
+        Email: info@solavisetech.com
 		<br>
-		<a href="mailto:mylandmarktech@gmail.com">Mail to Landmark Technologies</a>
+		<a href="mailto:info@solavisetech.com">Mail to Solavise Technologies Institute</a>
 	</span>
 </div>
 <hr>
 	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
 <hr>
 <hr>
-<p align=center>Landmark Technologies - Consultant, Training and Software Development</p>
-<p align=center><small>Copyrights 2021 by <a href="http://mylandmarktech.com/">Landmark Technologies</a> </small></p>
+<p align=center> Solavise Technologies Institute - Consultant, Training and Software Development</p>
+<p align=center><small>Copyrights 2024 by <a href="https://solavisetech.com//">Solavise Technologies Institute</a> </small></p>
 
 </body>
 </html>
